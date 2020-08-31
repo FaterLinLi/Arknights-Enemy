@@ -25,3 +25,5 @@
 ⑦所使用的.skel转.json工具网址为：https://naganeko.github.io/chibi-gif/
 
 ⑧已证实由⑦中所给网址转换出的.json文件可导入Spine中使用，需将纹理包通过Spine中的纹理解包器解包后导入，并重复④中操作，将-非网格-图片缩放至2倍
+
+⑨尝试更新Spine工程文件，Spine版本为3.8.75，存放于各个角色的Spine文件夹内，其中的atlas文件夹内为各个拆分部件

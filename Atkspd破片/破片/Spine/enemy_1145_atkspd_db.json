@@ -1,0 +1,2812 @@
+{
+  "skeleton": {
+    "hash": "/ytwTzGlV4h7Kycra04Dkuiunk8",
+    "spine": "3.5",
+    "width": 316.06402587890625,
+    "height": 212.30398559570312,
+    "chibi_gif": "chibi_gif_0.1.30.1"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "transform": "normal"
+    },
+    {
+      "name": "bone",
+      "parent": "root",
+      "y": 300,
+      "transform": "normal"
+    },
+    {
+      "name": "Body",
+      "parent": "bone",
+      "y": -154.11000061035156,
+      "transform": "normal"
+    },
+    {
+      "name": "GUN_A",
+      "parent": "Body",
+      "rotation": -22.520000457763672,
+      "x": -7.760000228881836,
+      "y": -76.5,
+      "length": 63.380001068115234,
+      "transform": "normal"
+    },
+    {
+      "name": "GUN_B",
+      "parent": "Body",
+      "rotation": -22.479999542236328,
+      "x": 32.70000076293945,
+      "y": -63.650001525878906,
+      "length": 44.81999969482422,
+      "transform": "normal"
+    },
+    {
+      "name": "Muzzle",
+      "parent": "bone",
+      "x": 127.48999786376953,
+      "y": -267.2799987792969,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "Fan_MoveB",
+      "bone": "Body",
+      "attachment": "Fan_MoveB",
+      "blend": "normal"
+    },
+    {
+      "name": "Gun_B",
+      "bone": "GUN_B",
+      "attachment": "Gun_B",
+      "blend": "normal"
+    },
+    {
+      "name": "BodyA",
+      "bone": "Body",
+      "attachment": "BodyA",
+      "blend": "normal"
+    },
+    {
+      "name": "Fan_MoveA",
+      "bone": "Body",
+      "attachment": "Fan_MoveA",
+      "blend": "normal"
+    },
+    {
+      "name": "BodyB",
+      "bone": "Body",
+      "attachment": "BodyB",
+      "blend": "normal"
+    },
+    {
+      "name": "LightA",
+      "bone": "Body",
+      "color": "ffffff00",
+      "attachment": "LightA",
+      "blend": "additive"
+    },
+    {
+      "name": "Gun_A",
+      "bone": "GUN_A",
+      "attachment": "Gun_A",
+      "blend": "normal"
+    },
+    {
+      "name": "BodyC",
+      "bone": "Body",
+      "attachment": "BodyC",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": {
+    "default": {
+      "Fan_MoveB": {
+        "Fan_MoveB": {
+          "type": "region",
+          "name": "Fan_MoveB",
+          "path": "Fan_MoveB",
+          "rotation": 0,
+          "x": 91.47000122070312,
+          "y": -4.789999961853027,
+          "width": 100,
+          "height": 21
+        }
+      },
+      "Gun_B": {
+        "Gun_B": {
+          "type": "region",
+          "name": "Gun_B",
+          "path": "Gun_B",
+          "rotation": 22.479999542236328,
+          "x": 59.65999984741211,
+          "y": 1.850000023841858,
+          "width": 139,
+          "height": 74
+        }
+      },
+      "BodyA": {
+        "BodyA": {
+          "type": "region",
+          "name": "BodyA",
+          "path": "BodyA",
+          "rotation": 0,
+          "x": -1.7100000381469727,
+          "y": -18.239999771118164,
+          "width": 310,
+          "height": 189
+        }
+      },
+      "Fan_MoveA": {
+        "Fan_MoveA": {
+          "type": "region",
+          "name": "Fan_MoveA",
+          "path": "Fan_MoveA",
+          "rotation": 0,
+          "x": -46.029998779296875,
+          "y": -15.789999961853027,
+          "width": 210,
+          "height": 45
+        }
+      },
+      "BodyB": {
+        "BodyB": {
+          "type": "region",
+          "name": "BodyB",
+          "path": "BodyB",
+          "rotation": 0,
+          "x": -59.529998779296875,
+          "y": -14.789999961853027,
+          "width": 197,
+          "height": 82
+        }
+      },
+      "LightA": {
+        "LightA": {
+          "type": "region",
+          "name": "LightA",
+          "path": "LightA",
+          "rotation": 0,
+          "x": -25.030000686645508,
+          "y": 56.709999084472656,
+          "width": 35,
+          "height": 27
+        }
+      },
+      "Gun_A": {
+        "Gun_A": {
+          "type": "region",
+          "name": "Gun_A",
+          "path": "Gun_A",
+          "rotation": 22.520000457763672,
+          "x": 67.26000213623047,
+          "y": 2.4000000953674316,
+          "width": 129,
+          "height": 72
+        }
+      },
+      "BodyC": {
+        "BodyC": {
+          "type": "region",
+          "name": "BodyC",
+          "path": "BodyC",
+          "rotation": 0,
+          "x": -13.6899995803833,
+          "y": -79.48999786376953,
+          "width": 27,
+          "height": 40
+        }
+      }
+    }
+  },
+  "skinsName": [
+    "default"
+  ],
+  "events": {
+    "OnAttack": {
+      "int": 0,
+      "float": 0,
+      "string": ""
+    }
+  },
+  "eventsName": [
+    "OnAttack"
+  ],
+  "animations": {
+    "Attack": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "BodyC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyC"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.399999976158142,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.5333333015441895,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.600000023841858,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.7999999523162842,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.9333332777023315,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.066666603088379,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.200000047683716,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.4666666984558105,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.399999976158142,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.5333333015441895,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.600000023841858,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.7999999523162842,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.9333332777023315,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.066666603088379,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.200000047683716,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.4666666984558105,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "Gun_A": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_A"
+            }
+          ]
+        },
+        "Gun_B": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_B"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137,
+              "curve": [
+                0.2549999952316284,
+                0.3499999940395355,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1666666716337204,
+              "angle": -0.30000001192092896,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "angle": 1.25,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "angle": 0.07000000029802322,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "angle": 2.6700000762939453,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5666667222976685,
+              "angle": 0.4300000071525574,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "angle": -0.18000000715255737,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.433333396911621,
+              "angle": 0.6100000143051147,
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2.6666667461395264,
+              "angle": 0.5199999809265137
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.24500000476837158,
+                0.5400000214576721,
+                0.3880000114440918,
+                1
+              ]
+            },
+            {
+              "time": 0.1666666716337204,
+              "x": -21.239999771118164,
+              "y": -0.10999999940395355,
+              "curve": [
+                0.5400000214576721,
+                0,
+                0.8320000171661377,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": -7.25,
+              "y": -0.07000000029802322,
+              "curve": [
+                0.25,
+                0,
+                0.05299999937415123,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": -25.290000915527344,
+              "y": -0.23000000417232513,
+              "curve": [
+                0.5429999828338623,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.7333333492279053,
+              "x": -6.159999847412109,
+              "y": -0.7099999785423279,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.200000047683716,
+              "x": -3.619999885559082,
+              "y": 0.8999999761581421,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "GUN_A": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.11999999731779099,
+                1
+              ]
+            },
+            {
+              "time": 0.06666667014360428,
+              "x": -14.390000343322754,
+              "y": 5.96999979019165,
+              "curve": [
+                0.6970000267028809,
+                0.019999999552965164,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "GUN_B": {
+          "translate": [
+            {
+              "time": 0.3333333432674408,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.09700000286102295,
+                1
+              ]
+            },
+            {
+              "time": 0.4000000059604645,
+              "x": -17.690000534057617,
+              "y": 7.320000171661377,
+              "curve": [
+                0.6100000143051147,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "Muzzle": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {},
+      "events": [
+        {
+          "name": "OnAttack",
+          "int": 0,
+          "float": 0,
+          "string": "",
+          "time": 0.03333333507180214
+        }
+      ]
+    },
+    "Default": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "BodyC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyC"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "Gun_A": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_A"
+            }
+          ]
+        },
+        "Gun_B": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_B"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "Muzzle": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "Die": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "BodyC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyC"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffe5"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffe5"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "Gun_A": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_A"
+            }
+          ]
+        },
+        "Gun_B": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_B"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff02"
+            },
+            {
+              "time": 0.10000000149011612,
+              "color": "ffffff88"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff85"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.20000000298023224,
+              "angle": 3.069999933242798,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4000000059604645,
+              "angle": -3.490000009536743,
+              "curve": [
+                0.8199999928474426,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "angle": 1.3899999856948853
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.27799999713897705,
+                0.4000000059604645,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": 0,
+              "y": -37.900001525878906,
+              "curve": [
+                0.3930000066757202,
+                0,
+                0.7400000095367432,
+                0.6100000143051147
+              ]
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 403.8999938964844
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "Muzzle": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "Idle": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "BodyC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyC"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "Gun_A": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_A"
+            }
+          ]
+        },
+        "Gun_B": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_B"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137,
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.23333333432674408,
+              "angle": 0.4300000071525574,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "angle": -0.18000000715255737,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.100000023841858,
+              "angle": 0.6100000143051147,
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "angle": 0.5199999809265137
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4000000059604645,
+              "x": -6.159999847412109,
+              "y": -0.7099999785423279,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8666666746139526,
+              "x": -3.619999885559082,
+              "y": 0.8999999761581421,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "Muzzle": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "Move": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "BodyC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyC"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "Gun_A": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_A"
+            }
+          ]
+        },
+        "Gun_B": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Gun_B"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff71",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4.739999771118164,
+              "curve": [
+                0.2680000066757202,
+                0.17000000178813934,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1666666716337204,
+              "angle": -4.650000095367432,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "angle": -5.070000171661377,
+              "curve": [
+                0.25,
+                0,
+                0.7369999885559082,
+                0.8299999833106995
+              ]
+            },
+            {
+              "time": 1,
+              "angle": -4.739999771118164
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": -5.590000152587891,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "Muzzle": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

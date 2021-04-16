@@ -1,0 +1,2155 @@
+{
+  "skeleton": {
+    "hash": "EuqD2zgb3nQuubKN3PnwAefmenU",
+    "spine": "3.5",
+    "width": 307.0000305175781,
+    "height": 202,
+    "chibi_gif": "chibi_gif_0.1.30.1"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "transform": "normal"
+    },
+    {
+      "name": "bone",
+      "parent": "root",
+      "y": 300,
+      "transform": "normal"
+    },
+    {
+      "name": "Body",
+      "parent": "bone",
+      "y": -154.11000061035156,
+      "transform": "normal"
+    },
+    {
+      "name": "LightC",
+      "parent": "Body",
+      "x": 74.62000274658203,
+      "y": -66.5999984741211,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "Fan_MoveB",
+      "bone": "Body",
+      "attachment": "Fan_MoveB",
+      "blend": "normal"
+    },
+    {
+      "name": "LightD",
+      "bone": "Body",
+      "color": "aaaaaaff",
+      "attachment": "LightD",
+      "blend": "normal"
+    },
+    {
+      "name": "LightC",
+      "bone": "LightC",
+      "attachment": "LightC",
+      "blend": "additive"
+    },
+    {
+      "name": "BodyA",
+      "bone": "Body",
+      "attachment": "BodyA",
+      "blend": "normal"
+    },
+    {
+      "name": "LightB",
+      "bone": "Body",
+      "color": "ffffff00",
+      "attachment": "LightB",
+      "blend": "additive"
+    },
+    {
+      "name": "Fan_MoveA",
+      "bone": "Body",
+      "attachment": "Fan_MoveA",
+      "blend": "normal"
+    },
+    {
+      "name": "BodyB",
+      "bone": "Body",
+      "attachment": "BodyB",
+      "blend": "normal"
+    },
+    {
+      "name": "LightA",
+      "bone": "Body",
+      "color": "ffffff00",
+      "attachment": "LightA",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": {
+    "default": {
+      "Fan_MoveB": {
+        "Fan_MoveB": {
+          "type": "region",
+          "name": "Fan_MoveB",
+          "path": "Fan_MoveB",
+          "rotation": 0,
+          "x": 91.47000122070312,
+          "y": -4.789999961853027,
+          "width": 100,
+          "height": 21
+        }
+      },
+      "LightD": {
+        "LightD": {
+          "type": "region",
+          "name": "LightD",
+          "path": "LightD",
+          "rotation": 0,
+          "x": 2.4700000286102295,
+          "y": -76.29000091552734,
+          "width": 144,
+          "height": 26
+        }
+      },
+      "LightC": {
+        "LightC": {
+          "type": "region",
+          "name": "LightC",
+          "path": "LightC",
+          "rotation": 0,
+          "x": 0.3199999928474426,
+          "y": 0.75,
+          "width": 18,
+          "height": 18
+        }
+      },
+      "BodyA": {
+        "BodyA": {
+          "type": "region",
+          "name": "BodyA",
+          "path": "BodyA",
+          "rotation": 0,
+          "x": -4.03000020980835,
+          "y": -24.790000915527344,
+          "width": 307,
+          "height": 202
+        }
+      },
+      "LightB": {
+        "LightB": {
+          "type": "region",
+          "name": "LightB",
+          "path": "LightB",
+          "rotation": 0,
+          "x": 5.46999979019165,
+          "y": -99.79000091552734,
+          "width": 151,
+          "height": 47
+        }
+      },
+      "Fan_MoveA": {
+        "Fan_MoveA": {
+          "type": "region",
+          "name": "Fan_MoveA",
+          "path": "Fan_MoveA",
+          "rotation": 0,
+          "x": -46.029998779296875,
+          "y": -15.789999961853027,
+          "width": 208,
+          "height": 43
+        }
+      },
+      "BodyB": {
+        "BodyB": {
+          "type": "region",
+          "name": "BodyB",
+          "path": "BodyB",
+          "rotation": 0,
+          "x": -59.529998779296875,
+          "y": -14.789999961853027,
+          "width": 196,
+          "height": 81
+        }
+      },
+      "LightA": {
+        "LightA": {
+          "type": "region",
+          "name": "LightA",
+          "path": "LightA",
+          "rotation": 0,
+          "x": -25.030000686645508,
+          "y": 56.709999084472656,
+          "width": 35,
+          "height": 25
+        }
+      }
+    }
+  },
+  "skinsName": [
+    "default"
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "Default": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff6b"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        },
+        "LightB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff16"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightB"
+            }
+          ]
+        },
+        "LightC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightC"
+            }
+          ]
+        },
+        "LightD": {
+          "color": [
+            {
+              "time": 0,
+              "color": "aaaaaaff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightD"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "LightC": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "Die": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffe5"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff5f"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffe5"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff6b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff02"
+            },
+            {
+              "time": 0.10000000149011612,
+              "color": "ffffff88"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff85"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        },
+        "LightB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff16",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.03333333507180214,
+              "color": "ffffff9e"
+            },
+            {
+              "time": 0.10000000149011612,
+              "color": "ffffff13"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffff85"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffff7c"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightB"
+            }
+          ]
+        },
+        "LightC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightC"
+            }
+          ]
+        },
+        "LightD": {
+          "color": [
+            {
+              "time": 0,
+              "color": "aaaaaaff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "aaaaaaff"
+            },
+            {
+              "time": 1,
+              "color": "aaaaaa00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightD"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.20000000298023224,
+              "angle": 3.069999933242798,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4000000059604645,
+              "angle": -3.490000009536743,
+              "curve": [
+                0.8199999928474426,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "angle": 1.3899999856948853
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.27799999713897705,
+                0.4000000059604645,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": 0,
+              "y": -37.900001525878906,
+              "curve": [
+                0.3930000066757202,
+                0,
+                0.7400000095367432,
+                0.6100000143051147
+              ]
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 403.8999938964844
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "LightC": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "Idle": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff6b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff6b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff6b"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        },
+        "LightB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff16",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff90",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff16",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff90",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff16"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightB"
+            }
+          ]
+        },
+        "LightC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightC"
+            }
+          ]
+        },
+        "LightD": {
+          "color": [
+            {
+              "time": 0,
+              "color": "aaaaaaff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightD"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.5199999809265137,
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.23333333432674408,
+              "angle": 0.4300000071525574,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "angle": -0.18000000715255737,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.100000023841858,
+              "angle": 0.6100000143051147,
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "angle": 0.5199999809265137
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4000000059604645,
+              "x": -6.159999847412109,
+              "y": -0.7099999785423279,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8666666746139526,
+              "x": -3.619999885559082,
+              "y": 0.8999999761581421,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "LightC": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.36666667461395264,
+              "x": -59.349998474121094,
+              "y": -17.610000610351562
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": -141.38999938964844,
+              "y": -1.8799999952316284,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.0333333015441895,
+              "x": -59.349998474121094,
+              "y": -17.610000610351562
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": -141.38999938964844,
+              "y": -1.8799999952316284
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.36666667461395264,
+              "x": 2.796999931335449,
+              "y": 1
+            },
+            {
+              "time": 0.6333333253860474,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": 0.6370000243186951,
+              "y": 0.6370000243186951
+            },
+            {
+              "time": 0.699999988079071,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.0333333015441895,
+              "x": 2.796999931335449,
+              "y": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0.6370000243186951,
+              "y": 0.6370000243186951
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "Move": {
+      "slots": {
+        "BodyA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyA"
+            }
+          ]
+        },
+        "BodyB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "BodyB"
+            }
+          ]
+        },
+        "Fan_MoveA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveA"
+            }
+          ]
+        },
+        "Fan_MoveB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffcc"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffcc"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "Fan_MoveB"
+            }
+          ]
+        },
+        "LightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff6b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff6b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff6b"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightA"
+            }
+          ]
+        },
+        "LightB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff16",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffff90",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff16",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff90",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff16"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightB"
+            }
+          ]
+        },
+        "LightC": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightC"
+            }
+          ]
+        },
+        "LightD": {
+          "color": [
+            {
+              "time": 0,
+              "color": "aaaaaaff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "LightD"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4.739999771118164,
+              "curve": [
+                0.2680000066757202,
+                0.17000000178813934,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1666666716337204,
+              "angle": -4.650000095367432,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666666865348816,
+              "angle": -5.070000171661377,
+              "curve": [
+                0.25,
+                0,
+                0.7369999885559082,
+                0.8299999833106995
+              ]
+            },
+            {
+              "time": 1,
+              "angle": -4.739999771118164
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": -5.590000152587891,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "LightC": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2666666805744171,
+              "x": -59.349998474121094,
+              "y": -17.610000610351562
+            },
+            {
+              "time": 0.5,
+              "x": -141.38999938964844,
+              "y": -1.8799999952316284,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333333611488342,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7666666507720947,
+              "x": -59.349998474121094,
+              "y": -17.610000610351562
+            },
+            {
+              "time": 1,
+              "x": -141.38999938964844,
+              "y": -1.8799999952316284
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2666666805744171,
+              "x": 2.796999931335449,
+              "y": 1
+            },
+            {
+              "time": 0.46666666865348816,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5,
+              "x": 0.6370000243186951,
+              "y": 0.6370000243186951
+            },
+            {
+              "time": 0.5333333611488342,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7666666507720947,
+              "x": 2.796999931335449,
+              "y": 1
+            },
+            {
+              "time": 1,
+              "x": 0.6370000243186951,
+              "y": 0.6370000243186951
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {
+        "Body": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
